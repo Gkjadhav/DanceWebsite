@@ -1,0 +1,118 @@
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug
+$ git config --global user.name Ghanshyam
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug
+$ git config --global user.email "gkkjadhav@gmail.com"
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug
+$ touch .gitignore
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug
+$ git init
+Initialized empty Git repository in C:/Users/Desktop/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug/.git/
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ ^C
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ git commit -m "Initial Commit"
+[master (root-commit) 6bbd21f] Initial Commit
+ 20 files changed, 2562 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 static/bg.jpg
+ create mode 100644 static/img/1.png
+ create mode 100644 static/img/2.png
+ create mode 100644 static/img/3.png
+ create mode 100644 static/img/logo.png
+ create mode 100644 static/img/logo1.png
+ create mode 100644 static/img/logo2.png
+ create mode 100644 static/img/logo3.png
+ create mode 100644 static/img/logo4.png
+ create mode 100644 static/index.js
+ create mode 100644 static/style.css
+ create mode 100644 static/styleContact.css
+ create mode 100644 views/base.pug
+ create mode 100644 views/contact.pug
+ create mode 100644 views/home.pug
+ create mode 100644 views/index.pug
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ git remote add origin git@github.com:Gkjadhav/DanceWebsite.git
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ git push origin master
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ ssh-keygen -t rsa -b 4096 -C "ghanshyam@codewithghanshyam.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Desktop/.ssh/id_rsa):
+/c/Users/Desktop/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Desktop/.ssh/id_rsa
+Your public key has been saved in /c/Users/Desktop/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:x3/wSROHPntfpUrIt3ry/dY6BpZOR9bNZ66/n9Ht6vA ghanshyam@codewithghanshyam.com
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|               . |
+|              ooo|
+|         .   .oo*|
+|        S o .+=oo|
+|         o o=+.*=|
+|          o+=o*o*|
+|          .ooB+oB|
+|          .=+oEXO|
++----[SHA256]-----+
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ cat  /c/Users/Desktop/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1Yy/ISKgt/EGKA1PFb8E6YmAHCmXKsHy2RL4MVwXMbx9n8JNfw9wYfguv17MXQMIhxKz5BUSIB526uAm0VSHUmm1O0tZWsw4VgVxzigpo7/EzcuOeEtQ6PMbAsHdtAE/x4ImS/J7hOfrSpDOw4oRviehLXzHcZcXtGRYkPQYJw85tXuM3sIraFwdpRcZf5Z40cRNIizCY3xW05/6yUQli73klcGlYtjyalf5B30IVLRP/Z2jnHcM4uilDfwiqC+9tM+b8UWc6nuXd31q0umGNzW7SfcF19sJlBiAqre+LgtwndKNnw3xEnFAbGr2Y+IpToxq5HA18YtG8IwhLwkqJ1Y5c+kz9DYxKLZoKIC/hfgiihNJYptR3Y6npKL69YWUzhDTk6hX25LifT/2LhnMKStMbsp/682/4v0mhILotuloApjeEhBpTSHI+W3aCUtuUnz13Q1geGAMrVHHD2vTQVdBTMER+UDpJiPwkxkrhdtAEOewHX1AXNxkp/wS//uEnamXJk0A4UZB0BOj0uwDdjTlf81UXqPaia7q0hgarTIHH6sPk7dyxUSswK+AiZZqnQmeKk/yGKEzOproZyzdhF+VkHxsK0w1Bxv0srDaWKmF1NknLRvzq9i/Tz/Gq0fx5gYgC4B3t+g/B3qfPttxdw4ppts6rE74805jtGN4uoQ== ghanshyam@codewithghanshyam.com
+
+Desktop@DESKTOP-D0IH3RN MINGW64 ~/Desktop/Complete web development Bootcamp/Web Development Projects/Dance Website using pug (master)
+$ git push origin master
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (25/25), 947.77 KiB | 3.26 MiB/s, done.
+Total 25 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:Gkjadhav/DanceWebsite.git
+ * [new branch]      master -> master
+
+
